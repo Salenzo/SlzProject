@@ -141,13 +141,20 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="map.h" />
-    <ClInclude Include="vector.h" />
-    <ClInclude Include="warrior.h" />
-    <ClInclude Include="mod.h" />
+    <ClInclude Include="bot.hpp" />
+    <ClInclude Include="gamelogic.hpp" />
+    <ClInclude Include="instruction.hpp" />
+    <ClInclude Include="map.hpp" />
+    <ClInclude Include="util.hpp" />
+    <ClInclude Include="vector.hpp" />
+    <ClInclude Include="warrior.hpp" />
+    <ClInclude Include="mod.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NewFile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
